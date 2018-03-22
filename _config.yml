@@ -1,0 +1,16 @@
+title: Contemplative Collaboration
+email: micah@micahtaylor.com
+analytics: UA-115961213-1
+description: >- # this means to ignore newlines until "baseurl:"
+  spoken word/music/visual art
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+include: ['_pages']
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+plugins:
+  - jekyll-feed
